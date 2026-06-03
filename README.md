@@ -177,6 +177,7 @@ mcp1_leave_management/
 ```
 
 ## Terminal setup steps from zero
+```
 uv venv --python 3.14 .venv
 source .venv/bin/activate
 which python
@@ -186,3 +187,4 @@ uv
 uv init
 uv pip show mcp
 uv run mcp install main.py
+```
